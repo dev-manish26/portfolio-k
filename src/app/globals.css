@@ -1,21 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap');
 @import "tailwindcss";
+
+@font-face {
+    font-family: 'nagasaki';
+    src: url('/fonts/nagasaki.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Dune Rise';
+    src: url('/fonts/dune_rise/Dune_Rise.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'impact1';
+    src: url('/fonts/Impact-Font/impact.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'impact2';
+    src: url('/fonts/Impact-Font/Impacted.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'impact3';
+    src: url('/fonts/Impact-Font/unicode.impact.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'minecraftAlt';
+    src: url('/fonts/minecrafter/Minecrafter.Alt.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'minecraftReg';
+    src: url('/fonts/minecrafter/Minecrafter.Reg.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'norwester';
+    src: url('/fonts/norwester/norwester.otf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+
+/* Tailwind-compatible utility classes */
+.font-minecraft {
+  font-family: var(--font-minecraft);
+}
+
+.font-montserrat {
+  font-family: var(--font-montserrat);
+}
+
+.font-league-spartan {
+  font-family: var(--font-league-spartan);
+}
+
+.font-nagasaki {
+  font-family: var(--font-nagasaki);
+}
+
+.font-dune-rise {
+  font-family: var(--font-dune-rise);
+}
+
+.font-impact1 {
+  font-family: var(--font-impact1);
+}
+
+.font-impact2 {
+  font-family: var(--font-impact2);
+}
+
+.font-impact3 {
+  font-family: var(--font-impact3);
+}
+
+.font-minecraft-alt {
+  font-family: var(--font-minecraft-alt);
+}
+
+.font-norwester {
+  font-family: var(--font-norwester);
+}
+
 
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  --font-minecraft: 'minecraftReg', monospace;
+  --font-montserrat: 'Montserrat', sans-serif;
+  --font-league-spartan: 'League Spartan', sans-serif;
+  --font-nagasaki: 'nagasaki', serif;
+  --font-dune-rise: 'Dune Rise', serif;
+  --font-impact1: 'impact1', sans-serif;
+  --font-impact2: 'impact2', sans-serif;
+  --font-impact3: 'impact3', sans-serif;
+  --font-minecraft-alt: 'minecraftAlt', monospace;
+  --font-norwester: 'norwester', sans-serif;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
+
 
 @media (prefers-color-scheme: dark) {
   :root {
     --background: #0a0a0a;
     --foreground: #ededed;
+    --font-minecraft: 'minecraftReg', monospace;
+    --font-montserrat: 'Montserrat', sans-serif;
+    --font-league-spartan: 'League Spartan', sans-serif;
+    --font-nagasaki: 'nagasaki', serif;
+    --font-dune-rise: 'Dune Rise', serif;
+    --font-impact1: 'impact1', sans-serif;
+    --font-impact2: 'impact2', sans-serif;
+    --font-impact3: 'impact3', sans-serif;
+    --font-minecraft-alt: 'minecraftAlt', monospace;
+    --font-norwester: 'norwester', sans-serif;
   }
 }
 
@@ -24,3 +139,8 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+
+
+
+
