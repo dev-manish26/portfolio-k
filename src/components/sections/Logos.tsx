@@ -94,7 +94,7 @@ const logos: React.FC<LogoFolioProps> = ({
           whileInView="visible"
           viewport={{ once: true, margin: "-100px" }}
         >
-          {logos.map((logo, index) => (
+          {logos.map((logo) => (
             <motion.div
               key={logo.id}
               className="group relative"

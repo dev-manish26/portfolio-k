@@ -5,7 +5,7 @@ import Image from 'next/image'
 import { useState } from 'react'
 
 const About = () => {
-  const [currentView, setCurrentView] = useState(0)
+  // const [currentView, setCurrentView] = useState(0)
 
   const softwareIcons = [
     { name: 'Photoshop', alt: 'Ps' },
@@ -133,7 +133,7 @@ const About = () => {
                 SOFTWARES
               </h3>
               <div className="flex gap-4">
-                {softwareIcons.map((software, index) => (
+                {softwareIcons.map((software) => (
                   <motion.div
                     key={software.name}
                     whileHover={{ scale: 1.1 }}
@@ -178,7 +178,7 @@ const About = () => {
                 PERSONAL SKILLS
               </h3>
               <div className="flex flex-wrap gap-3">
-                {personalSkills.map((skill, index) => (
+                {personalSkills.map((skill) => (
                   <motion.span
                     key={skill}
                     whileHover={{ scale: 1.05 }}

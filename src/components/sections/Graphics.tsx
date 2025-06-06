@@ -69,7 +69,7 @@ const Graphics: React.FC<GraphicsProps> = ({
     }
   };
 
-  const folioVariants = {
+  /* const folioVariants = {
     hidden: { 
       opacity: 0, 
       x: 30
@@ -83,7 +83,7 @@ const Graphics: React.FC<GraphicsProps> = ({
         ease: "easeOut" 
       }
     }
-  };
+  }; */
 
   return (
     <section 
