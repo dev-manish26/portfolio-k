@@ -83,7 +83,7 @@ const Kriptees: React.FC = () => {
             <span className="text-4xl text-white">
               Kriptees is all about celebrating your love for anime with stylish, high-quality t-shirts. 
               Our passion for anime shines through in every design, making each piece a perfect blend of 
-              fandom and fashion. Whether you're into classic series or new hits, Kriptees offers unique, 
+              fandom and fashion. Whether you&apos;re into classic series or new hits, Kriptees offers unique, 
               comfy shirts that let you wear your favorite characters and moments with pride. Join us in 
               sharing the joy of anime, one awesome t-shirt at a time.
             </span>

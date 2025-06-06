@@ -2,10 +2,8 @@
 
 import { motion } from 'framer-motion'
 import Image from 'next/image'
-import { useState } from 'react'
 
 const About = () => {
-  // const [currentView, setCurrentView] = useState(0)
 
   const softwareIcons = [
     { name: 'Photoshop', alt: 'Ps' },
@@ -77,7 +75,7 @@ const About = () => {
               <p>
                 My portfolio showcases a diverse range of projects, from logos to 
                 stunning graphics to illustrations. Through my artistry, I aim to 
-                evoke emotions, spark curiosity, and inspire others. Let's 
+                evoke emotions, spark curiosity, and inspire others. Let&apos;s 
                 collaborate and bring your vision to life together.
               </p>
             </div>
